@@ -23,5 +23,5 @@ env:
 
 script:
   # Build all gradle-based Android projects
-  - cd Android
+  - cd app
   - ./build.sh
