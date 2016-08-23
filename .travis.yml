@@ -21,7 +21,9 @@ env:
   # TERM=dumb : For Gradle build output
   - TERM=dumb
 
+before_script:
+  - cd app
+
 script:
   # Build all gradle-based Android projects
-  - cd app
-  - ./build.sh
+  - ./gradlew build
