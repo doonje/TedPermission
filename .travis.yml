@@ -12,7 +12,7 @@ env:
   - TERM=dumb
 
 before_script:
-  - cd app
+#  - cd app
 
 script:
   # Build all gradle-based Android projects
